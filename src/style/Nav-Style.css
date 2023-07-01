@@ -1,0 +1,112 @@
+
+.Nav-Container{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 5px gray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.Nav-Content-Container{
+    display: flex;
+    flex-direction: row;
+    height: 15vh;
+    align-items: center;
+
+}
+.Nav-item-1{margin-left: 10px;}
+.Nav-item-1 > img{vertical-align: middle;}
+.Nav-item-1 > h1{
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Inter', sans-serif; 
+    font-weight: 700;
+    color: #61DAFB;
+    letter-spacing: 1px;
+    transition: all 0.5s ease-in-out;
+}
+.Nav-item-1 > h1:hover{
+    color: #2fa8ff;
+    opacity: 0.8;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.Nav-item-2{
+    margin-left: auto;
+    margin-right: 10px;
+}
+.Nav-item-2 h6{
+    font-family: 'Inter', sans-serif; 
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: rgb(0, 0, 0);
+    transition: all 0.5s ease-in-out;
+}
+.Nav-item-2 h6:hover{
+    color: #d5ebfb;
+    opacity: 0.8;
+    cursor: pointer;
+    font-size: 18px;
+}
+.dark{
+    background-color: #000000;
+}
+.Nav-item-2{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    font-family: 'Inter', sans-serif; 
+    font-kerning: auto;
+    font-weight: 700;
+    font-variant:small-caps;
+    color: #61DAFB;
+}
+.toggole-cont{
+    
+    background-color: black;
+    border: none;
+    width: 35px;
+    padding: 3px;
+    height: 15px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    cursor : pointer;
+
+}
+.btn-toggle{
+    padding: 8px 8px 8px 8px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+}
+.dark-toggle{
+    background-color: white;
+}
+.dark-button{
+    margin-left: auto;
+    background-color: rgb(0, 0, 0);
+}
+.fa-moon{
+    color: rgb(32, 32, 238);
+    font-size: 20px;
+}
+.fa-sun{
+    color: rgb(208, 208, 31);
+    font-size: 20px;
+}
+@media (max-width:800px) {
+    
+    .Nav-item-1 > h1{
+
+        font-size: 18px;
+    }
+    .Nav-item-1 > img{
+        
+        height: 20px;
+    }
+}

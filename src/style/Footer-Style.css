@@ -1,0 +1,26 @@
+
+.footer-container{
+    width: 100%;
+    background-color: black;
+    height: 10vh;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-item > small{
+    font-family: 'Inter', sans-serif; 
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    transition: all 0.5s ease-in-out;
+}
+.footer-item > small:hover{
+    font-size: 18px;
+    color: aqua;
+    opacity: 0.8;
+    cursor: pointer;
+}
